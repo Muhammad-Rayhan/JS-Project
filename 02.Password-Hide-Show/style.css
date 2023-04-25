@@ -1,0 +1,33 @@
+body{
+    width: 99%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 400px;
+    height: auto;
+    background-color: #eee;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.container input{
+    width: 94.5%;
+    padding: 5px 10px;
+}
+
+.container input:focus{
+    border: none;
+}
+
+.container img{
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+}
