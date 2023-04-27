@@ -9,7 +9,7 @@ button.addEventListener('click', function(){
             username: username.value.toLowerCase().trim(),
             password: password.value.toLowerCase().trim()
         }
-        document.cookie =`userinfo=${JSON.stringify(userdata)}; expires=Fri, 28 Apr 2023 00:00:00 UTC; path=/;`; //Cookie Set
+        document.cookie =`userinfo=${JSON.stringify(userdata)}; expires=Wed, 1 Jan 2025 00:00:00 UTC; path=/;`; //Cookie Set
         username.value = '';
         password.value = '';
     } else {

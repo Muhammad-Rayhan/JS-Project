@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    /* display: block; */
+    /* display: flex; */
+}
+
+.sidebar{
+    width: 260px;
+    background-color: black;
+    height: 100%;
+}
+
+.sidebar ul li{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 1px solid #828282;
+    border-top: 1px solid #2f2f2f;
+}
+
+.sidebar ul li a{
+    color: white;
+    padding-left: 15px;
+}
+
+li.active{
+    border-left: 3px solid red;
+}
+
+li.active a{
+    color: red !important;
+}
+
+.body-content{
+    position: absolute;
+    top: 0;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+#sec1{
+    background-image: url(images/img1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec2{
+    background-image: url(images/img2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec3{
+    background-image: url(images/img3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec4{
+    background-image: url(images/img4.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+}
+
+#sec5{
+    background-image: url(images/img5.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+}
+
+#show-hide{
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.toggle-body-content{
+    margin-left: 260px;
+}
+
+.toggle-sidebar{
+    display: none;
+}
